@@ -27,7 +27,6 @@ nav a:hover{
 }
 
 h1{ 
-    position:relative;
     font-family:'Courier New', Courier, monospace;
     font-size:40px;
     color:maroon;
@@ -36,16 +35,35 @@ h1{
     transition:1s;
 }
 h3{
-    position:absolute;
-    
+    text-align:center;
+    padding-right:50px;
+    line-height:1px;
+}
+h3:hover{
+    color:hotpink;
 }
 h1:hover{
     text-shadow:6px 7px 8px black;
 }
-
+.info{
+    display:flex;
+    padding:10px;
+    padding-top:20px;
+    margin-top:10px;
+}
+.frontline{
+    margin-left:10px;
+    padding:10px 10px 10px 20px;
+    font-family:'Times New Roman', Times, serif;
+    word-spacing: 8px;
+    line-height:30px;
+    
+}
 section{
   padding:12px;
   margin-left:10px;
+  line-height:25px;
+  font-family:Georgia;
 
 }
 
