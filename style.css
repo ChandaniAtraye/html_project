@@ -40,6 +40,7 @@ h1{
     text-align:center;
     text-shadow: 6px 7px 4px rgb(125, 95, 12);
     transition:1s;
+    padding:10px;
 }
 h3{
     text-align:center;
@@ -68,6 +69,21 @@ h1:hover{
 }
 .card{
     border:2px solid black;
+}
+.about_section{
+    display:flex;
+   
+}
+.frontpageinfo>a{
+     margin-left:15px;
+     margin-top:15px;
+    padding:10px 20px;
+    background-color: #8b5e3c;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-size:20px;
+    
 }
 .frontline{
     margin-left:10px;
@@ -114,6 +130,8 @@ i{
 }
 .pic{
     box-shadow: 7px 7px 9px black;
+    margin-left:50px;
+    padding:10px;
     
 }
 .S_img1{
@@ -203,24 +221,30 @@ iframe{
 }
 .head{ 
     text-align:center;
+    font-size:30px;
+    
 }
 
 .coffeeimage{
-     height:250px;
+    height:250px;
     width:300px;
     border-radius:20px;
     margin-top:15px;
     margin-bottom:10px;
 
-   
-
 }
 .special_items{
-    box-shadow:5px 5px 6px grey;
-    border-radius:5px;
+    box-shadow:0px 5px 6px grey;
+    border-radius:10px;
+    transition: 1s ease;
+    margin-bottom:10px;
     
-    border:2px solid black;
+}
+.special_items:hover{
+    transform:translateY(-20px);
+    background-color:rgba(140, 232, 140, 0.896);
 }
 .coffeeimage+p{
     padding:5px;
+    text-align:center;
 }
