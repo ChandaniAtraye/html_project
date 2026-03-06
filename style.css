@@ -21,7 +21,6 @@ nav{
     padding:10px;
     text-shadow:4px 4px 6px rgba(15, 5, 12, 0.8);
     transition:1s;
-    
 
 }
 nav a:hover{
@@ -75,8 +74,7 @@ h1:hover{
    
 }
 .frontpageinfo>a{
-     margin-left:15px;
-     margin-top:15px;
+    margin-left:15px;
     padding:10px 20px;
     background-color: #8b5e3c;
     color:white;
@@ -87,7 +85,8 @@ h1:hover{
 }
 .frontline{
     margin-left:10px;
-    padding:10px 10px 10px 20px;
+    margin-bottom:20px;
+    padding:10px 10px 30px 20px;
     font-family:'Times New Roman', Times, serif;
     word-spacing: 8px;
     line-height:30px;
@@ -237,7 +236,8 @@ iframe{
     box-shadow:0px 5px 6px grey;
     border-radius:10px;
     transition: 1s ease;
-    margin-bottom:10px;
+    margin-bottom:20px;
+
     
 }
 .special_items:hover{
