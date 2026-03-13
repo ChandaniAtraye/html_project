@@ -156,7 +156,7 @@ i{
     box-shadow:7px 7px 9px brown;
 }
 
-.table1{
+.table1,.table2,.table3{
     border: 3px solid  black;
     height:400px;
     width:400px;
@@ -179,6 +179,11 @@ tbody{
     color:rgb(27, 17, 5);
     font-size:20px;
     font-family:'Courier New', Courier, monospace
+
+}
+.t1_section,.t2_section{
+    display:inline-block;
+    
 
 }
 .t_b{
@@ -296,5 +301,24 @@ iframe{
     100% {
         transform:translateY(-8px);
     }
+}
+.t_container{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin:10px;
+    padding:10px;
+    
+    
+
+}
+.card{
+    height:300px;
+    width:350px;
+    font-size:25px;
+    border-radius:10px;
+    padding:15px;
+    background-color:#d7ccc8;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
 }
 
