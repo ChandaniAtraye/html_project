@@ -340,3 +340,7 @@ iframe{
 /* .price{
     float:right;
 } */
+
+.service_card > h3 {
+    text-align:left;
+}
