@@ -344,3 +344,7 @@ iframe{
 .service_card > h3 {
     text-align:left;
 }
+main{
+    display:flex;
+    
+}
