@@ -211,6 +211,12 @@ header{
     padding-top:25px;
     margin:40px;
     border-radius:10px;
+    box-shadow:4px 4px 5px rgb(111, 105, 106);
+    transition:1s ease 0s;
+}
+.contact:hover{
+    transform:translateY(-20px);
+
 }
 
 .timing{
@@ -221,6 +227,11 @@ header{
     padding-left:30px;
     margin:40px;
     border-radius:10px;
+    box-shadow:4px 4px 5px rgb(111, 105, 106);
+    transition:1s ease 0s;
+}
+.timing:hover{
+    transform:translateY(-20px);
 }
 
 .feedback{
@@ -228,12 +239,28 @@ header{
     margin:40px;
     background-color:rgb(167, 187, 187);
     border-radius:10px;
+    box-shadow:4px 4px 5px rgb(111, 105, 106);
+    transition:1s ease 0s;
+    padding:10px;
+    padding-top:20px;
+}
+.feedback:hover{
+    transform:translateY(-20px);
+}
+
+.contact_info{
+    display:flex;
+    justify-content:space-around;
+    
 }
 h2,h3{
     margin-left:15px;
 }
 iframe{
-    margin-left:10px;
+    display:flex;
+    justify-self:center;
+    margin-top:20px;
+    margin-left:60px;
     padding-left:30px;
 }
 .head{ 
