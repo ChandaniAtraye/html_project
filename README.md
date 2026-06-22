@@ -6,6 +6,7 @@ A responsive cafe website built using HTML, CSS, and Bootstrap.
 - Home Page
 - About Us Section
 - Menu Section
+- Services
 - Special Offers
 - Gallery
 - Contact Us
