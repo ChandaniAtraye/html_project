@@ -1,6 +1,6 @@
 # Cafe Website ☕
 
-A responsive cafe website built using HTML, CSS, and Bootstrap.
+A responsive cafe website built using HTML, CSS, and Bootstrap..
 
 ## Features
 - Home Page
